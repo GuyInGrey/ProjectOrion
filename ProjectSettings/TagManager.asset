@@ -13,7 +13,7 @@ TagManager:
   - Water
   - UI
   - HeldItems
-  - 
+  - SlimeSticky
   - 
   - 
   - 
@@ -41,6 +41,18 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 3097217865
+    locked: 0
+  - name: Foreground
+    uniqueID: 2202710469
+    locked: 0
+  - name: GouperOverlay
+    uniqueID: 2870771775
+    locked: 0
+  - name: Grabbable
+    uniqueID: 1504199837
     locked: 0
   m_RenderingLayers:
   - Default

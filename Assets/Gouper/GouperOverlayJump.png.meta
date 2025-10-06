@@ -1,0 +1,302 @@
+fileFormatVersion: 2
+guid: a62dd60cec5065f4b9f9b6d58fb8d93a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6782012516424887309
+    second: GouperOverlayJump_0
+  - first:
+      213: -525172240658775194
+    second: GouperOverlayJump_1
+  - first:
+      213: 9057791848872411454
+    second: GouperOverlayJump_2
+  - first:
+      213: -4640654251436194678
+    second: GouperOverlayJump_3
+  - first:
+      213: 7114248707056210561
+    second: GouperOverlayJump_4
+  - first:
+      213: 3248021349890549395
+    second: GouperOverlayJump_5
+  - first:
+      213: 2149404556440482488
+    second: GouperOverlayJump_6
+  - first:
+      213: 8620555096206948297
+    second: GouperOverlayJump_7
+  - first:
+      213: -7006301454087633702
+    second: GouperOverlayJump_8
+  - first:
+      213: 2683828541124543055
+    second: GouperOverlayJump_9
+  - first:
+      213: -5555929450514830618
+    second: GouperOverlayJump_10
+  - first:
+      213: 855985127045371278
+    second: GouperOverlayJump_11
+  - first:
+      213: 5255226327739408473
+    second: GouperOverlayJump_12
+  - first:
+      213: -6488736211327536311
+    second: GouperOverlayJump_13
+  - first:
+      213: 1270393286366010457
+    second: GouperOverlayJump_14
+  - first:
+      213: 8310683723841768380
+    second: GouperOverlayJump_15
+  - first:
+      213: -4739353006795121736
+    second: GouperOverlayJump_16
+  - first:
+      213: -2858595276685215192
+    second: GouperOverlayJump_17
+  - first:
+      213: -9010962541214653889
+    second: GouperOverlayJump_18
+  - first:
+      213: -5422269117507644554
+    second: GouperOverlayJump_19
+  - first:
+      213: -2605811606591646566
+    second: GouperOverlayJump_20
+  - first:
+      213: 3462628381362834028
+    second: GouperOverlayJump_21
+  - first:
+      213: 1489722454623520110
+    second: GouperOverlayJump_22
+  - first:
+      213: 8583778333779386805
+    second: GouperOverlayJump_23
+  - first:
+      213: 1817844791242493435
+    second: GouperOverlayJump_24
+  - first:
+      213: 1824783692348847865
+    second: GouperOverlayJump_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 300
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GouperOverlayJump_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0c22c7737c8e1e50800000000000000
+      internalID: 6782012516424887309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GouperOverlayJump_1
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66343ad21a636b8f0800000000000000
+      internalID: -525172240658775194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GouperOverlayJump_2
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e31087142bdb3bd70800000000000000
+      internalID: 9057791848872411454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GouperOverlayJump_3
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 0
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a844db9ab85199fb0800000000000000
+      internalID: -4640654251436194678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b1f5b5117ff435f4f96d8b76b2cff6d9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":4.0},"gridSpriteSize":{"x":300.0,"y":300.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      GouperOverlayJump_0: 6782012516424887309
+      GouperOverlayJump_1: -525172240658775194
+      GouperOverlayJump_2: 9057791848872411454
+      GouperOverlayJump_3: -4640654251436194678
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

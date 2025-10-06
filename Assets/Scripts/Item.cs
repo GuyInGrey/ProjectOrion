@@ -3,13 +3,16 @@ using UnityEngine;
 public class Item : MonoBehaviour
 {
     public ItemObject itemObject;
+    public ItemInventory inventory;
+
     [SerializeField] float pullForce = 50f;
 
     SpriteRenderer spriteRenderer;
     Rigidbody2D rb;
-    PlayerMovement playerMovement;
+    //PlayerMovement playerMovement;
 
     float timeSinceCollected = 0;
+    bool beingHeld;
 
     void Start()
     {
@@ -20,23 +23,31 @@ public class Item : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (transform.parent != null && transform.parent.name == "Inventory")
+        gameObject.tag = "GrabbableItem";
+        if (ItemHolder.Holding == gameObject)
         {
-            timeSinceCollected += Time.deltaTime;
+            beingHeld = true;
+        }
+        else if (beingHeld)
+        {
+            timeSinceCollected = 0f;
+            beingHeld = false;
+        }
 
-            if (playerMovement == null)
-            {
-                playerMovement = transform.parent.parent.GetComponent<PlayerMovement>();
-            }
+        if (inventory != null)
+        {
+            gameObject.layer = 6;
+            GetComponent<CircleCollider2D>().isTrigger = beingHeld;
+            timeSinceCollected += Time.deltaTime;
         }
 
         spriteRenderer.sprite = itemObject.sprite;
         var divider = timeSinceCollected > 0 ? transform.parent.parent.localScale.x : 1f;
         transform.localScale = new Vector3(.25f * itemObject.itemSize, .25f * itemObject.itemSize, 1) / divider;
 
-        if (timeSinceCollected > 0)
+        if (timeSinceCollected > 0 && !beingHeld)
         {
-            var boundary = playerMovement.GetStomachRadius();
+            var boundary = inventory.GetBoundarySize();
 
             rb.gravityScale = 0;
 
@@ -50,7 +61,26 @@ public class Item : MonoBehaviour
                 transform.position = transform.parent.position - (diff.normalized * boundary);
             }
 
-            spriteRenderer.color = new Color(1, 1, 1, diff.magnitude <= boundary || timeSinceCollected > .25f ? 0.5f : 1f);
+            spriteRenderer.color = new Color(1, 1, 1, diff.magnitude <= boundary || timeSinceCollected > .25f ? 0.85f : 1f);
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        CheckForInventory(collision.gameObject);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        CheckForInventory(collision.gameObject);
+    }
+
+    void CheckForInventory(GameObject obj)
+    {
+        var inventory = obj.GetComponent<ItemInventory>();
+        if (inventory != null)
+        {
+            inventory.AddItemObject(gameObject);
         }
     }
 }

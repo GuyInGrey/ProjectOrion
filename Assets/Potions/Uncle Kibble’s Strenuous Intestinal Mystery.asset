@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2ab5a6c9943d5d448de5ee32ce8b950, type: 3}
+  m_Name: "Uncle Kibble\u2019s Strenuous Intestinal Mystery"
+  m_EditorClassIdentifier: Assembly-CSharp::PotionType
+  potionName: "Uncle Kibble\u2019s Strenuous Intestinal Mystery"
+  ingredients:
+  - {fileID: 11400000, guid: f0a109107111570468ffa14df878e0a8, type: 2}
+  - {fileID: 11400000, guid: f0a109107111570468ffa14df878e0a8, type: 2}
+  - {fileID: 11400000, guid: ec8256d8c82d1cf45a42ab784187abd8, type: 2}
+  - {fileID: 11400000, guid: e80b2ee42488f064695729731445f9be, type: 2}
+  - {fileID: 11400000, guid: d9d8e108b951e8244a9bb8f563f1f987, type: 2}
+  color: {r: 0.6156863, g: 0.4862745, b: 0.4117647, a: 1}

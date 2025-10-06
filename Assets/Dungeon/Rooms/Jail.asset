@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f8b3743e439bd04fbf1b2a4a5d32be7, type: 3}
+  m_Name: Jail
+  m_EditorClassIdentifier: Assembly-CSharp::DungeonRoomType
+  typeName: Jail
+  minWidth: 10
+  maxWidth: 30
+  minHeight: 10
+  maxHeight: 15
+  lighting:
+  - mainColor: {r: 0.92156863, g: 0.5686275, b: 0.1882353, a: 1}
+    undertoneColor: {r: 0.9647059, g: 0.8980392, b: 0.45882353, a: 1}
+    randomWeight: 10
+  torchDensity: 1
+  minTorchDistanceTiles: 10
+  usePerlinBackground: 0
+  backgrounds:
+  - tile: {fileID: 11400000, guid: d62bff37fe55b834cb196d359534c88a, type: 2}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    randomWeight: 10
+    darknessVariation: 0.25
+    overlays:
+    - {fileID: 11400000, guid: 5e2eff87557f28f41b0170ce51c6a135, type: 2}
+    - {fileID: 11400000, guid: 9ffda3afb3184e74ca32bcb4ca5d183e, type: 2}
+    overlayChance: 0.1
+  - tile: {fileID: 11400000, guid: b4a931ae45777414e9b23d089c0f310c, type: 2}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    randomWeight: 10
+    darknessVariation: 0.25
+    overlays:
+    - {fileID: 11400000, guid: 5e2eff87557f28f41b0170ce51c6a135, type: 2}
+    - {fileID: 11400000, guid: 9ffda3afb3184e74ca32bcb4ca5d183e, type: 2}
+    overlayChance: 0.1
+  borders:
+  - tile: {fileID: 11400000, guid: 866e1ffcd5045f34790a7a6d1ddf6e3a, type: 2}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    randomWeight: 10
+    darknessVariation: 0.3
+    overlays: []
+    overlayChance: 0
+  items:
+  - item: {fileID: 0}
+    randomWeight: 0
+  treasureTypes:
+  - treasureType: 2
+    randomWeight: 5
+  minItems: 1
+  maxItems: 3
+  treasureDensity: 250
+  minTreasureDistanceTiles: 20
+  maxDoors: 2
+  randomWeight: 10

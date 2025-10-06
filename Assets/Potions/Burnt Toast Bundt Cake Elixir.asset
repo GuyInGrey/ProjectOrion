@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2ab5a6c9943d5d448de5ee32ce8b950, type: 3}
+  m_Name: Burnt Toast Bundt Cake Elixir
+  m_EditorClassIdentifier: Assembly-CSharp::PotionType
+  potionName: Burnt Toast Bundt Cake Elixir
+  ingredients:
+  - {fileID: 11400000, guid: fa8f17281eb1f124b8fea4011f19724e, type: 2}
+  - {fileID: 11400000, guid: fa8f17281eb1f124b8fea4011f19724e, type: 2}
+  - {fileID: 11400000, guid: fa8f17281eb1f124b8fea4011f19724e, type: 2}
+  - {fileID: 11400000, guid: f0a109107111570468ffa14df878e0a8, type: 2}
+  - {fileID: 11400000, guid: f0a109107111570468ffa14df878e0a8, type: 2}
+  - {fileID: 11400000, guid: d9d8e108b951e8244a9bb8f563f1f987, type: 2}
+  - {fileID: 11400000, guid: 10da79664c468da4fa7127f53fce0794, type: 2}
+  color: {r: 0.23921569, g: 0.23921569, b: 0.23921569, a: 1}

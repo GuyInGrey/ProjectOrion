@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2ab5a6c9943d5d448de5ee32ce8b950, type: 3}
+  m_Name: Gastronomical Gusher
+  m_EditorClassIdentifier: Assembly-CSharp::PotionType
+  potionName: Gastronomical Gusher
+  ingredients:
+  - {fileID: 11400000, guid: ec8256d8c82d1cf45a42ab784187abd8, type: 2}
+  - {fileID: 11400000, guid: e7319508b718a954098bb3cd28d1e752, type: 2}
+  - {fileID: 11400000, guid: d9d8e108b951e8244a9bb8f563f1f987, type: 2}
+  color: {r: 0.6039216, g: 0.7294118, b: 0.3764706, a: 1}

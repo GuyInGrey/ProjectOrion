@@ -9,6 +9,7 @@ public class ItemObject : ScriptableObject
     public ItemType type = ItemType.Ingredient;
     public float itemSize = 1;
     public Sprite sprite;
+    public Sprite vialLiquidSprite;
 }
 
 public enum ItemType
