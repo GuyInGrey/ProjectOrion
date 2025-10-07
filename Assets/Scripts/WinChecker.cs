@@ -16,7 +16,7 @@ public class WinChecker : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (TrophyHandler.trophiesCollected.Count >= 24 && cauldron.completedPotionSlots.Count >= 12)
+        if (TrophyHandler.trophiesCollected.Count >= 24 && Cauldron.CraftedPotions.Count >= 12)
         {
             toggle.enabled = true;
         }

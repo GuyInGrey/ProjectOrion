@@ -48,6 +48,12 @@ public class PlayerMovement : MonoBehaviour
 
     void Start()
     {
+
+        // Disable VSync to allow targetFrameRate to take effect
+        QualitySettings.vSyncCount = 0;
+        // Set the target frame rate
+        Application.targetFrameRate = 60;
+
         rb = GetComponent<Rigidbody2D>();
         animator.SetInteger("State", 0);
 
