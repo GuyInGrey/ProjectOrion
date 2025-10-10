@@ -1,3 +1,4 @@
+using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -5,10 +6,13 @@ using UnityEngine;
 
 public class ItemInventory : MonoBehaviour
 {
+    static ConcurrentDictionary<string, List<ItemObject>> inventories;
+
     public BoundaryType boundaryType;
     public Transform inventoryParent;
     public GameObject grabbablePrefab;
     public AudioClip soundToPlayOnEnter;
+    public string Id;
 
     public float GetBoundarySize()
     {

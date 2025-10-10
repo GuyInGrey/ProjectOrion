@@ -54,5 +54,8 @@ TagManager:
   - name: Grabbable
     uniqueID: 1504199837
     locked: 0
+  - name: UI
+    uniqueID: 4066134593
+    locked: 0
   m_RenderingLayers:
   - Default
